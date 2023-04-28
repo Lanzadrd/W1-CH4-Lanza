@@ -12,17 +12,23 @@ body {
 }
 
 .nav {
-  max-height: 3rem;
+  max-height: 4rem;
   display: flex;
   justify-content: space-between;
-  background-color: palegoldenrod;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.nav__logo,
-.nav__menu {
-  display: flex;
+.nav__logo {
   flex: 1;
-  justify-content: space-between;
+}
+
+.nav__menu {
+  justify-content: flex-end;
+}
+
+.menu-button {
+  float: inline-end;
 }
 
 .first-half {
@@ -51,11 +57,15 @@ body {
 h1 {
   margin: 0;
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 p {
   font-weight: 600;
   color: rgb(237, 100, 54);
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -77,7 +87,7 @@ figure {
 
 img {
   max-width: 100%;
-  padding: 0.5rem;
+  padding: 0.7rem;
   border-radius: 20px;
 }
 
